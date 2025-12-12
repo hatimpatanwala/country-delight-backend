@@ -13,6 +13,7 @@ import { OrdersModule } from './orders/orders.module';
 import { CartModule } from './cart/cart.module';
 import { AddressesModule } from './addresses/addresses.module';
 import { DeliveryModule } from './delivery/delivery.module';
+import { HealthModule } from './health/health.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { DeliveryModule } from './delivery/delivery.module';
       envFilePath: '.env',
     }),
     DatabaseModule,
+    HealthModule,
     AuthModule,
     UsersModule,
     OtpModule,

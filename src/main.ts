@@ -43,6 +43,7 @@ async function bootstrap() {
       },
       'JWT-auth',
     )
+    .addTag('Health', 'Health check and monitoring endpoints')
     .addTag('Authentication', 'Authentication endpoints for customers, delivery boys, and admins')
     .addTag('Admin', 'Admin-only endpoints for managing users and system')
     .addTag('Users', 'User profile management endpoints')

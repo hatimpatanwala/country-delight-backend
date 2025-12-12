@@ -5,7 +5,9 @@
       "Bash(npm install)",
       "Bash(npm run start:dev:*)",
       "Bash(timeout:*)",
-      "Bash(npm run build)"
+      "Bash(npm run build)",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
